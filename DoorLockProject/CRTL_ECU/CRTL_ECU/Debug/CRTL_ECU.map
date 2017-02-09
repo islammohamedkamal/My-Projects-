@@ -1,0 +1,549 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o (exit)
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+ .text          0x00000000        0x0 CRTL_ECU.o
+ .bss           0x00000000        0x0 CRTL_ECU.o
+ .text          0x00000000        0x0 External_EEPROM.o
+ .bss           0x00000000        0x0 External_EEPROM.o
+ .text.EEPROM_Init
+                0x00000000        0x6 External_EEPROM.o
+ .text          0x00000000        0x0 LED.o
+ .bss           0x00000000        0x0 LED.o
+ .text          0x00000000        0x0 MCAL.o
+ .bss           0x00000000        0x0 MCAL.o
+ .text.set_Dir_PIN
+                0x00000000       0x42 MCAL.o
+ .text.Set_PIN  0x00000000       0x1c MCAL.o
+ .text.Clear_PIN
+                0x00000000       0x1e MCAL.o
+ .text.Read_PIN
+                0x00000000       0x20 MCAL.o
+ .text          0x00000000        0x0 Timer_For_Door.o
+ .bss           0x00000000        0x0 Timer_For_Door.o
+ .text          0x00000000        0x0 TWI.o
+ .bss           0x00000000        0x0 TWI.o
+ .text.TWI_Read_With_Ack
+                0x00000000        0xe TWI.o
+ .text          0x00000000        0x0 USART_Driver.o
+ .bss           0x00000000        0x0 USART_Driver.o
+ .text.USART_Rec_Int_Enable
+                0x00000000        0x4 USART_Driver.o
+ .text.USART_Rec_Int_Disable
+                0x00000000        0x4 USART_Driver.o
+ .text.USART_Trans_Int_Enable
+                0x00000000        0x4 USART_Driver.o
+ .text.USART_Trans_Int_Disable
+                0x00000000        0x4 USART_Driver.o
+ .text.USART_Rec_Enable
+                0x00000000        0x4 USART_Driver.o
+ .text.USART_Rec_Disable
+                0x00000000        0x4 USART_Driver.o
+ .text.USART_Trans_Enable
+                0x00000000        0x4 USART_Driver.o
+ .text.USART_Trans_Disable
+                0x00000000        0x4 USART_Driver.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+LOAD CRTL_ECU.o
+LOAD External_EEPROM.o
+LOAD LED.o
+LOAD MCAL.o
+LOAD Timer_For_Door.o
+LOAD TWI.o
+LOAD USART_Driver.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x35a
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000060        0x8 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x00000068        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+                0x00000068                __vector_1
+                0x00000068                __vector_12
+                0x00000068                __bad_interrupt
+                0x00000068                __vector_6
+                0x00000068                __vector_3
+                0x00000068                __vector_11
+                0x00000068                __vector_13
+                0x00000068                __vector_17
+                0x00000068                __vector_19
+                0x00000068                __vector_7
+                0x00000068                __vector_5
+                0x00000068                __vector_4
+                0x00000068                __vector_9
+                0x00000068                __vector_2
+                0x00000068                __vector_15
+                0x00000068                __vector_8
+                0x00000068                __vector_14
+                0x00000068                __vector_10
+                0x00000068                __vector_16
+                0x00000068                __vector_18
+                0x00000068                __vector_20
+                0x0000006c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.main     0x0000006c      0x104 CRTL_ECU.o
+                0x0000006c                main
+ .text.EEPROM_Write_Byte
+                0x00000170       0x6e External_EEPROM.o
+                0x00000170                EEPROM_Write_Byte
+ .text.EEPROM_Read_Byte
+                0x000001de       0xa4 External_EEPROM.o
+                0x000001de                EEPROM_Read_Byte
+ .text.Led_ON   0x00000282        0x6 LED.o
+                0x00000282                Led_ON
+ .text.Led_OFF  0x00000288        0x6 LED.o
+                0x00000288                Led_OFF
+ .text.Open_Door
+                0x0000028e       0x20 Timer_For_Door.o
+                0x0000028e                Open_Door
+ .text.Close_Door
+                0x000002ae       0x20 Timer_For_Door.o
+                0x000002ae                Close_Door
+ .text.TWI_init
+                0x000002ce        0xe TWI.o
+                0x000002ce                TWI_init
+ .text.TWI_Start
+                0x000002dc        0xc TWI.o
+                0x000002dc                TWI_Start
+ .text.TWI_Stop
+                0x000002e8        0x6 TWI.o
+                0x000002e8                TWI_Stop
+ .text.TWI_write
+                0x000002ee        0xe TWI.o
+                0x000002ee                TWI_write
+ .text.TWI_Read_With_NAck
+                0x000002fc        0xe TWI.o
+                0x000002fc                TWI_Read_With_NAck
+ .text.TWI_Get_Status
+                0x0000030a        0x6 TWI.o
+                0x0000030a                TWI_Get_Status
+ .text.USART_Init
+                0x00000310       0x2e USART_Driver.o
+                0x00000310                USART_Init
+ .text.USART_FUN_TRANSMIT
+                0x0000033e       0x10 USART_Driver.o
+                0x0000033e                USART_FUN_TRANSMIT
+ .text.USART_FUN_Receive
+                0x0000034e        0x8 USART_Driver.o
+                0x0000034e                USART_FUN_Receive
+                0x00000356                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000356        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                0x00000356                _exit
+                0x00000356                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000356        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000035a                _etext = .
+
+.data           0x00800060        0x0 load address 0x0000035a
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 CRTL_ECU.o
+ .data          0x00800060        0x0 External_EEPROM.o
+ .data          0x00800060        0x0 LED.o
+ .data          0x00800060        0x0 MCAL.o
+ .data          0x00800060        0x0 Timer_For_Door.o
+ .data          0x00800060        0x0 TWI.o
+ .data          0x00800060        0x0 USART_Driver.o
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.1056/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800060                . = ALIGN (0x2)
+                0x00800060                _edata = .
+                0x00800060                PROVIDE (__data_end, .)
+
+.bss            0x00800060        0x0
+                0x00800060                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ *(COMMON)
+                0x00800060                PROVIDE (__bss_end, .)
+                0x0000035a                __data_load_start = LOADADDR (.data)
+                0x0000035a                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800060        0x0
+                0x00800060                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800060                PROVIDE (__noinit_end, .)
+                0x00800060                _end = .
+                0x00800060                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 CRTL_ECU.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 External_EEPROM.o
+ .comment       0x00000000       0x31 LED.o
+ .comment       0x00000000       0x31 MCAL.o
+ .comment       0x00000000       0x31 Timer_For_Door.o
+ .comment       0x00000000       0x31 TWI.o
+ .comment       0x00000000       0x31 USART_Driver.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x198
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 CRTL_ECU.o
+ .debug_aranges
+                0x00000020       0x30 External_EEPROM.o
+ .debug_aranges
+                0x00000050       0x28 LED.o
+ .debug_aranges
+                0x00000078       0x38 MCAL.o
+ .debug_aranges
+                0x000000b0       0x28 Timer_For_Door.o
+ .debug_aranges
+                0x000000d8       0x50 TWI.o
+ .debug_aranges
+                0x00000128       0x70 USART_Driver.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0xb42
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x381 CRTL_ECU.o
+ .debug_info    0x00000381      0x268 External_EEPROM.o
+ .debug_info    0x000005e9       0x97 LED.o
+ .debug_info    0x00000680      0x140 MCAL.o
+ .debug_info    0x000007c0       0xa2 Timer_For_Door.o
+ .debug_info    0x00000862      0x135 TWI.o
+ .debug_info    0x00000997      0x1ab USART_Driver.o
+
+.debug_abbrev   0x00000000      0x570
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1c3 CRTL_ECU.o
+ .debug_abbrev  0x000001c3       0xf2 External_EEPROM.o
+ .debug_abbrev  0x000002b5       0x4f LED.o
+ .debug_abbrev  0x00000304       0xa9 MCAL.o
+ .debug_abbrev  0x000003ad       0x4f Timer_For_Door.o
+ .debug_abbrev  0x000003fc       0xd3 TWI.o
+ .debug_abbrev  0x000004cf       0xa1 USART_Driver.o
+
+.debug_line     0x00000000      0x704
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x1d8 CRTL_ECU.o
+ .debug_line    0x000001d8       0x93 External_EEPROM.o
+ .debug_line    0x0000026b       0xb9 LED.o
+ .debug_line    0x00000324       0x6b MCAL.o
+ .debug_line    0x0000038f       0xca Timer_For_Door.o
+ .debug_line    0x00000459      0x128 TWI.o
+ .debug_line    0x00000581      0x183 USART_Driver.o
+
+.debug_frame    0x00000000      0x2ac
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x34 CRTL_ECU.o
+ .debug_frame   0x00000034       0x74 External_EEPROM.o
+ .debug_frame   0x000000a8       0x34 LED.o
+ .debug_frame   0x000000dc       0x54 MCAL.o
+ .debug_frame   0x00000130       0x34 Timer_For_Door.o
+ .debug_frame   0x00000164       0x84 TWI.o
+ .debug_frame   0x000001e8       0xc4 USART_Driver.o
+
+.debug_str      0x00000000      0x3f7
+ *(.debug_str)
+ .debug_str     0x00000000      0x235 CRTL_ECU.o
+                                0x269 (size before relaxing)
+ .debug_str     0x00000235       0x70 External_EEPROM.o
+                                0x20f (size before relaxing)
+ .debug_str     0x000002a5       0x13 LED.o
+                                0x182 (size before relaxing)
+ .debug_str     0x000002b8       0x44 MCAL.o
+                                0x14b (size before relaxing)
+ .debug_str     0x000002fc       0x1f Timer_For_Door.o
+                                0x19c (size before relaxing)
+ .debug_str     0x0000031b       0x24 TWI.o
+                                0x1d9 (size before relaxing)
+ .debug_str     0x0000033f       0xb8 USART_Driver.o
+                                0x27f (size before relaxing)
+
+.debug_loc      0x00000000      0x450
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x18a CRTL_ECU.o
+ .debug_loc     0x0000018a      0x16d External_EEPROM.o
+ .debug_loc     0x000002f7      0x109 MCAL.o
+ .debug_loc     0x00000400       0x50 TWI.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x158
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x40 CRTL_ECU.o
+ .debug_ranges  0x00000040       0x20 External_EEPROM.o
+ .debug_ranges  0x00000060       0x18 LED.o
+ .debug_ranges  0x00000078       0x28 MCAL.o
+ .debug_ranges  0x000000a0       0x18 Timer_For_Door.o
+ .debug_ranges  0x000000b8       0x40 TWI.o
+ .debug_ranges  0x000000f8       0x60 USART_Driver.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(CRTL_ECU.elf elf32-avr)
+LOAD linker stubs

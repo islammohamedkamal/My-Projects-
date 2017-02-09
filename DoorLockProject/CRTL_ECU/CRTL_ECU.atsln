@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "CRTL_ECU", "CRTL_ECU\CRTL_ECU.cproj", "{52151F5F-798C-4202-B0F1-264D0311B5AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52151F5F-798C-4202-B0F1-264D0311B5AD}.Debug|AVR.ActiveCfg = Debug|AVR
+		{52151F5F-798C-4202-B0F1-264D0311B5AD}.Debug|AVR.Build.0 = Debug|AVR
+		{52151F5F-798C-4202-B0F1-264D0311B5AD}.Release|AVR.ActiveCfg = Release|AVR
+		{52151F5F-798C-4202-B0F1-264D0311B5AD}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
